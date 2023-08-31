@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'CursedTimerUlil-Aznm';
+    /* font-family: 'Cursed Timer ULiL' Verdana, Geneva, sans-serif; */
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/CursedTimerUlil-Aznm.ttf') format('truetype');
+    }
+
+body {
+   
+ margin: 0;
+   background-color:#1B244A ; 
+   color: white;
+   font-weight: bold;
+   text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.title{
+color: #EEE;
+text-align: center;
+font-family: Verdana;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 35.893px; /* 89.732% */
+}
+
+.scoreboard{
+    border-radius:10px;
+    font-family:'CursedTimerUlil-Aznm'; 
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.btn {
+   border-radius:10px;
+   margin: 0 5px;
+ width: 30px;
+ width: 45px;
+ height: 45px;
+/* flex-shrink: 0; */
+background-color:#1B244A ;
+border:2px solid  #9AABD8; ;
+color: #9AABD8;
+text-align: center;
+font-family:'CursedTimerUlil-Aznm';
+font-size: 18px;
+/* font-style: normal; */
+font-weight: 400;
+/* line-height: 27.812px; 154.509% */
+}
